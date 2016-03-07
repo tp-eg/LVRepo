@@ -257,6 +257,30 @@
 	{"menu":{
 		"code":"order-list","url":"/admin/orders/list.html","role":"ORDER","order":0
 	}}
+	,
+	{"menu":{
+		"code":"order-dashboard","url":"","role":"ORDER","order":1,"menus":
+		[
+			{"menu":{
+				"code":"order-product-catalog","url":"/admin/orders/dashboardsProductCatalog.html","role":"ORDER","order":0
+			}},
+			{"menu":{
+				"code":"order-product-price","url":"/admin/orders/dashboardsProductPrice.html","role":"ORDER","order":1
+			}},
+			{"menu":{
+				"code":"order-deals","url":"/admin/orders/dashboardsDeals.html","role":"ORDER","order":2
+			}},
+			{"menu":{
+				"code":"order-sold-instock","url":"/admin/orders/dashboardsSoldInstock.html","role":"ORDER","order":3
+			}},
+			{"menu":{
+				"code":"order-sales-country","url":"/admin/orders/dashboardsSalesCountry.html","role":"ORDER","order":4
+			}},
+			{"menu":{
+				"code":"order-sales-instock","url":"/admin/orders/dashboardsSalesInstock.html","role":"ORDER","order":5
+			}}
+		]
+	}}
 ]
 }},
 {
